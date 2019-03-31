@@ -1,0 +1,19 @@
+{
+  "name": "@isoden/website-devkit",
+  "version": "1.0.0",
+  "description": "CLI tool for website development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoden/website-devkit.git"
+  },
+  "author": "Yu Isoda <isoden.me@gmail.com> (https://isoden.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isoden/website-devkit/issues"
+  },
+  "homepage": "https://github.com/isoden/website-devkit#readme"
+}
