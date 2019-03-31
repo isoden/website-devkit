@@ -2,9 +2,11 @@
   "name": "@isoden/website-devkit",
   "version": "1.0.0",
   "description": "CLI tool for website development.",
+  "bin": "dist/cli.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc --watch",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/isoden/website-devkit/issues"
   },
-  "homepage": "https://github.com/isoden/website-devkit#readme"
+  "homepage": "https://github.com/isoden/website-devkit#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/node": "^11.12.2",
+    "typescript": "^3.4.1"
+  }
 }
